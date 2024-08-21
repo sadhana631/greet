@@ -1,1 +1,3 @@
-module.exports = 'Have a Great Day'
+const greetings = require('../greeting/index.css')
+
+module.exports = `Hello Rahul! ${greetings}`;
